@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A006002521CA30E100C34DC4 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A006002421CA30E100C34DC4 /* CheckBox.swift */; };
+		A00D798521A6FCCE002715C2 /* DesignableUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00D798421A6FCCE002715C2 /* DesignableUI.swift */; };
 		A016FD5A211156AA003821AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A016FD59211156AA003821AC /* AppDelegate.swift */; };
 		A016FD5C211156AA003821AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A016FD5B211156AA003821AC /* ViewController.swift */; };
 		A016FD5F211156AA003821AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A016FD5D211156AA003821AC /* Main.storyboard */; };
 		A016FD61211156AC003821AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A016FD60211156AC003821AC /* Assets.xcassets */; };
 		A016FD64211156AC003821AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A016FD62211156AC003821AC /* LaunchScreen.storyboard */; };
 		A016FD6C211156E0003821AC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A016FD6B211156E0003821AC /* TableViewController.swift */; };
+		A025763221250B1200DB1D26 /* DesignableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A025763121250B1200DB1D26 /* DesignableUIView.swift */; };
+		A02576342125101200DB1D26 /* ImageImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02576332125101200DB1D26 /* ImageImage.swift */; };
+		A0585E0C2136532D0026A6D4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0585E0B2136532D0026A6D4 /* DetailViewController.swift */; };
+		A07E16CC224489FF00D9C7D7 /* CheckInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07E16CB224489FF00D9C7D7 /* CheckInt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A006002421CA30E100C34DC4 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		A00D798421A6FCCE002715C2 /* DesignableUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUI.swift; sourceTree = "<group>"; };
 		A016FD56211156AA003821AC /* TestTest3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTest3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A016FD59211156AA003821AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A016FD5B211156AA003821AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		A016FD63211156AC003821AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A016FD65211156AC003821AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A016FD6B211156E0003821AC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		A025763121250B1200DB1D26 /* DesignableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableUIView.swift; sourceTree = "<group>"; };
+		A02576332125101200DB1D26 /* ImageImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageImage.swift; sourceTree = "<group>"; };
+		A0585E0B2136532D0026A6D4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A07E16CB224489FF00D9C7D7 /* CheckInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,14 @@
 			children = (
 				A016FD59211156AA003821AC /* AppDelegate.swift */,
 				A016FD5B211156AA003821AC /* ViewController.swift */,
-				A016FD5D211156AA003821AC /* Main.storyboard */,
 				A016FD6B211156E0003821AC /* TableViewController.swift */,
+				A025763121250B1200DB1D26 /* DesignableUIView.swift */,
+				A00D798421A6FCCE002715C2 /* DesignableUI.swift */,
+				A016FD5D211156AA003821AC /* Main.storyboard */,
+				A07E16CB224489FF00D9C7D7 /* CheckInt.swift */,
+				A006002421CA30E100C34DC4 /* CheckBox.swift */,
+				A0585E0B2136532D0026A6D4 /* DetailViewController.swift */,
+				A02576332125101200DB1D26 /* ImageImage.swift */,
 				A016FD60211156AC003821AC /* Assets.xcassets */,
 				A016FD62211156AC003821AC /* LaunchScreen.storyboard */,
 				A016FD65211156AC003821AC /* Info.plist */,
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A025763221250B1200DB1D26 /* DesignableUIView.swift in Sources */,
+				A02576342125101200DB1D26 /* ImageImage.swift in Sources */,
 				A016FD5C211156AA003821AC /* ViewController.swift in Sources */,
+				A006002521CA30E100C34DC4 /* CheckBox.swift in Sources */,
+				A0585E0C2136532D0026A6D4 /* DetailViewController.swift in Sources */,
 				A016FD6C211156E0003821AC /* TableViewController.swift in Sources */,
+				A00D798521A6FCCE002715C2 /* DesignableUI.swift in Sources */,
 				A016FD5A211156AA003821AC /* AppDelegate.swift in Sources */,
+				A07E16CC224489FF00D9C7D7 /* CheckInt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
